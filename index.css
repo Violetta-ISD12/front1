@@ -1,0 +1,139 @@
+.nav-links a{
+  margin: 0 10px;
+}
+
+.contact-btn {
+  background-color: var(--contacts-btn-color);
+  padding: 11px 25px;
+  border-radius: 4px;
+}
+
+.gradient-wrap{
+  position: relative;
+  background: var(--bg-gradient)
+}
+
+.intro-text-wrap {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 30px;
+}
+
+.intro-text *{
+  margin: 15px 0;
+}
+
+.intro-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.intro-text h2{
+  font-size: 40px;
+}
+
+.details-btn {
+  background-color: var(--details-btn-color);
+  background: var(--details-btn-gradient);
+  transition: var(--hover-transition);
+  padding: 15px 20px;
+  border-radius: 30px;
+}
+
+.details-btn:hover {
+  background: var(--details-bg-hover);
+}
+
+.joystick-wrap {
+  width: 30%;
+  max-width: 2000px;
+}
+
+#joystick {
+  position: absolute;
+  top: -150px;
+  right: 50px;
+  width: 50%;
+}
+
+.trending-section-title {
+  margin: 180px 180px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.see-all-btn {
+  background: var(--see-all-btn-bg);
+  padding: 7px 25px;
+  border-radius: 5px;
+}
+
+.trending-games-info {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 100px;
+  flex-wrap: wrap;
+}
+
+.games-preview-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.preview-description * {
+  margin: 0 5px;
+}
+
+.preview-description {
+  display: flex;
+  align-items: center;
+}
+
+.games-preview {
+  width: 200px;
+  margin: 20px 0;
+}
+
+.flame-img {
+  width: 15px;
+}
+
+.big-trending-section-title h4 {
+  font-size: 31px;
+}
+
+.big-banner-section-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.big-banner-section {
+  width: 40%;
+  align-self: flex-start;
+  margin: 0 0 40px 5%;
+}
+
+.big-banner-section * {
+  margin: 20px 0;
+}
+
+.big-banner-section h5 {
+  font-size: 18px;
+  text-align: start;
+}
+
+#big-banner {
+  width: 90%;
+  margin: 0 0 100px;
+}
+
+
